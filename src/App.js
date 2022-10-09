@@ -1,10 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CardPrueba from './components/Card/CardPrueba';
 
 function App() {
   return (
     <div className="App">
-      Esta es la APP
+      <CardPrueba />
     </div>
   );
 }
