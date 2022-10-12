@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardPrueba from './components/Card/CardPrueba';
+import { CardPrueba } from './components/Card';
 
 function App() {
   return (
