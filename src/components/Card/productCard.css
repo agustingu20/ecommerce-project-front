@@ -1,0 +1,16 @@
+.shopIcon {
+    background-color: transparent;
+    border: none;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.3rem 1rem;
+}
+
+.shopIcon:hover {
+    background-color: transparent;
+    border-radius: 10%;
+}
+
+.shopIcon:active {
+    background-color: aliceblue;
+    border-radius: 40%;
+}

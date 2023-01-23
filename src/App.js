@@ -1,10 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProductCard from './components/Card/ProductCard';
 
 function App() {
   return (
     <div className="App">
-      Esta es la APP
+      <ProductCard
+        title={'Iphone XR'}
+        cardBody={'Cuerpo del producto'}
+        actionButton={'Comprar'}
+        price={'$1000'}
+      />
     </div>
   );
 }
