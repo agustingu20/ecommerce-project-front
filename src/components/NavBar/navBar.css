@@ -2,3 +2,56 @@
     color: gray;
     font-size: 20px;
 }
+
+.inputSearch {
+    border-left: 2px red solid;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.inputSearch:focus {
+    box-shadow: none;
+    border-color: red;
+}
+
+.searchDropdown {
+    background-color: #fff;
+    border-left: 1px red solid;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}
+
+.searchButton { 
+    padding: 0.5rem 1.5rem;
+    background-color: red;
+    border-left: 1px red solid;
+    border-right: 1px red solid;
+    border-top: 1px red solid;
+    border-bottom: 1px red solid;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.searchButton:hover { 
+    background-color: red;
+    border-left: 1px red solid;
+    border-right: 1px red solid;
+    border-top: 1px red solid;
+    border-bottom: 1px red solid;
+}
+
+.searchButton:active { 
+    background-color: red !important;
+    border-left: 1px red solid !important;
+    border-right: 1px red solid !important;
+    border-top: 1px red solid !important;
+    border-bottom: 1px red solid !important;
+}
+
+.awesomeIcon {
+    border: none;
+    background-color: transparent;
+}
