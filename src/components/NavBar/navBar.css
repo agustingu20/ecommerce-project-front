@@ -4,6 +4,7 @@
 }
 
 .inputSearch {
+    height: 50px;
     border-left: 2px red solid;
     border-top: 2px red solid;
     border-bottom: 2px red solid;
@@ -18,6 +19,7 @@
 }
 
 .searchDropdown {
+    height: 50px;
     background-color: #fff;
     border-left: 1px red solid;
     border-top: 2px red solid;
@@ -25,6 +27,7 @@
 }
 
 .searchButton { 
+    margin: 0;
     padding: 0.5rem 1.5rem;
     background-color: red;
     border-left: 1px red solid;

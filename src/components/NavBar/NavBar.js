@@ -39,7 +39,7 @@ const NavBar = () => {
           </Nav>
           <Nav className="px-4">
             {fontAwesomeIcons.map((fontIcon) => (
-              <button className="mx-2 awesomeIcon" key={fontAwesomeIcons.indexOf(fontIcon)}>
+              <button className="mx-2 mt-0 awesomeIcon" key={fontAwesomeIcons.indexOf(fontIcon)}>
                 <FontAwesomeIcon icon={fontIcon.icon} className="userIcon" />
                 <p className="mb-0">{fontIcon.description}</p>
               </button>
