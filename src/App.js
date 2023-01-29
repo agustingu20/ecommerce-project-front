@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductCard from './components/Card/ProductCard';
 import NavBar from './components/NavBar/NavBar';
 import CategoryComponent from './components/CategoryComponent/CategoryComponent';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         price={'$1000'}
       />
       <CategoryComponent />
+      <Footer />
     </div>
   );
 }
