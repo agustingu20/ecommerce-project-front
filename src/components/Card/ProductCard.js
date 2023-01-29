@@ -6,7 +6,7 @@ const ProductCard = ({
   title, cardBody, actionButton, price,
 }) => {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem', marginTop: '1rem' }}>
       <Card.Img variant="top" src="https://mui.com/static/images/cards/contemplative-reptile.jpg" />
       <Card.Body>
         <Card.Title>{title}</Card.Title>

@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductCard from './components/Card/ProductCard';
 import NavBar from './components/NavBar/NavBar';
+import CategoryComponent from './components/CategoryComponent/CategoryComponent';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         actionButton={'Comprar'}
         price={'$1000'}
       />
+      <CategoryComponent />
     </div>
   );
 }
