@@ -6,3 +6,16 @@ li > a {
     text-decoration: none;
     color: black;
 }
+
+li > a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_background {
+    background-color: #4568dc;
+}
+
+.logo_img {
+    width: 80px;
+}

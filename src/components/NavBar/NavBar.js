@@ -5,17 +5,19 @@ import {
   Button,
   Container,
   Form,
+  Image,
   Nav,
   Navbar,
   NavDropdown,
 } from 'react-bootstrap';
+import logo from '../../assets/0.png';
 import fontAwesomeIcons from '../../assets/fontAwesomeIcons';
 
 const NavBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar className='d-flex justify-content-center' collapseOnSelect expand="lg" bg="light" variant="light">
+      <Container className='m-0'>
+        <Navbar.Brand href="#home"><Image className='logo_img' src={logo} rounded /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="w-100">
